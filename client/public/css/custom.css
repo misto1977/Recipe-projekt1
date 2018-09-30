@@ -1,0 +1,29 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+header.header.menu_fixed {
+  background: rgba(248, 176, 82, 0.79);
+}
+.m-0auto {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.white-text {
+  color: #ffffff !important;
+}
+
+#sign-in-dialog {
+  display: block !important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media(min-width: 600px){
+  #sign-in-dialog {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
